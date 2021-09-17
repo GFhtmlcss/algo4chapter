@@ -1,0 +1,54 @@
+
+body {
+    font-family: sans-serif;
+}
+.vector{
+    position: relative;
+    top: 35px;
+    margin: 15px;
+    border-radius: 15px;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    color: tomato;
+}
+main p{
+    color: navy;
+}
+main p::before {
+    content: "!!!";
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+main p::after {
+    content: "???";
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+li {
+    text-shadow: 0 5px 10px  black;
+}
+li:hover{
+    color: tomato;
+    transition: 1s ease-in;
+    font-size: 25px;
+    text-shadow: 0 10px 15px  tomato;
+}
+header, h1 {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
